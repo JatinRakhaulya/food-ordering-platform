@@ -1,12 +1,32 @@
-# React + Vite
+# Tomatoo App 🍅
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React + Vite project for a simple food ordering platform with cart management using Context API.
 
-Currently, two official plugins are available:
+Users can:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+.Browse food items
 
-## Expanding the ESLint configuration
+.Add/remove items to/from the cart
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+.View total cart amount in real time
+
+This project uses:
+
+.React + Vite for fast development
+
+.Context API for state management
+
+.ESLint rules for code quality
+
+🌐 Live Demo
+
+Check out the app live on Netlify:
+https://tomatoo-app.netlify.app
+
+
+🛠 Setup
+
+.git clone https://github.com/JatinRakhaulya/food-ordering-platform.git
+.cd frontend
+.npm install
+.npm run dev
